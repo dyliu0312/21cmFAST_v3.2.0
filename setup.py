@@ -83,7 +83,7 @@ setup(
         "astropy>=2.0",
         "h5py>=2.8.0",
         "cached_property",
-        "matplotlib",
+        "matplotlib==3.8",
         "bidict",
     ],
     extras_require={"tests": test_req, "docs": doc_req, "dev": test_req + doc_req},
